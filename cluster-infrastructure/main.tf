@@ -52,6 +52,6 @@ module "cluster-infra" {
   deployment_name                   = "epamcora"
   deployment_env                    = "epamcora"
   vpc_id                            = "vpc-0415aa7113325d810"
-  subnet_ids                        = ["subnet-0d985becaf3d61365", "subnet-0d1dc3754fd992800", "subnet-0c76eb51b5d594177"]
+  subnet_ids = ["subnet-0d985becaf3d61365", "subnet-0d1dc3754fd992800", "subnet-0c76eb51b5d594177"]
   iam_role_permissions_boundary_arn = "arn:aws:iam::xxxxxxxxxxxx:policy/eo_role_boundary"
 } 
